@@ -1,4 +1,6 @@
-iban4j 
+### This is a fork from iban4j which seems to have stopped been actively maintaned since 2018.
+
+iban5j 
 ======
 
 [![Build Status](https://api.travis-ci.org/repositories/arturmkrtchyan/iban4j.png)](https://travis-ci.org/arturmkrtchyan/iban4j) [![Coverage Status](https://img.shields.io/coveralls/arturmkrtchyan/iban4j.svg)](https://coveralls.io/r/arturmkrtchyan/iban4j) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.iban4j/iban4j/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.iban4j/iban4j)
@@ -69,16 +71,9 @@ A Java library for generation and validation of the International Bank Account N
 </dependency>
 ```
 
-![Compatibility Badge](https://java.net/downloads/adoptopenjdk/compat.svg)
-
 #### References
 
 - http://en.wikipedia.org/wiki/ISO_13616
 - http://en.wikipedia.org/wiki/ISO_9362
 - https://www.ecb.europa.eu/paym/retpaym/paymint/sepa/shared/pdf/iban_registry.pdf
-
-## License
-Copyright 2015 Artur Mkrtchyan.
-
-Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
