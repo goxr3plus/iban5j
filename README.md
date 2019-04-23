@@ -13,19 +13,19 @@ A Java library for generation and validation of the International Bank Account N
 >Step 1. Add the JitPack repository to your build file
 ``` XML
 <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
+ <repository>
+  <id>jitpack.io</id>
+  <url>https://jitpack.io</url>
+ </repository>
 </repositories>
 ```
 >Step 2. Add the dependency
 
 ``` XML
 <dependency>
-	   <groupId>com.github.goxr3plus</groupId>
-	   <artifactId>iban5j</artifactId>
-	   <version>iban5j-1.0.0</version>
+ <groupId>com.github.goxr3plus</groupId>
+ <artifactId>iban5j</artifactId>
+ <version>iban5j-1.0.0</version>
 </dependency>
 ```
 
