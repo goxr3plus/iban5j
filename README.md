@@ -8,6 +8,27 @@ iban5j
 
 A Java library for generation and validation of the International Bank Account Numbers (<a href="http://en.wikipedia.org/wiki/ISO_13616" target="_blank">IBAN ISO_13616</a>) and Business Identifier Codes (<a href="http://en.wikipedia.org/wiki/ISO_9362" target="_blank">BIC ISO_9362</a>).
 
+## How to add to your project ? 
+
+>Step 1. Add the JitPack repository to your build file
+``` XML
+<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+</repositories>
+```
+>Step 2. Add the dependency
+
+``` XML
+<dependency>
+	   <groupId>com.github.goxr3plus</groupId>
+	   <artifactId>iban5j</artifactId>
+	   <version>iban5j-1.0.0</version>
+</dependency>
+```
+
 
 #### Iban quick examples:
 
@@ -62,18 +83,12 @@ A Java library for generation and validation of the International Bank Account N
  }
 ```
 
-#### Maven dependency: 
-```
-<dependency>
-  <groupId>org.iban4j</groupId>
-  <artifactId>iban4j</artifactId>
-  <version>3.2.1</version>
-</dependency>
-```
 
 #### References
 
 - http://en.wikipedia.org/wiki/ISO_13616
 - http://en.wikipedia.org/wiki/ISO_9362
 - https://www.ecb.europa.eu/paym/retpaym/paymint/sepa/shared/pdf/iban_registry.pdf
+
+
 
